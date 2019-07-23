@@ -959,6 +959,9 @@ section {
 .section__order .form__inp-min {
   max-width: 204px;
 }
+.section__order .form__inp-big {
+    max-width: 820px;
+}
 
 .section__order .form__inp:hover {
   -webkit-box-shadow: 0 15px 46px 8px rgba(0,0,0,0.2);
@@ -2059,6 +2062,22 @@ label.error {
 @media screen and (max-width: 1440px) { 
 
 	
+
+    .header {
+        padding: 15px 0;
+    }
+    .header .logo__img img {
+        max-width: 60px;
+    }
+
+    
+    .section__general {
+        padding-top: 20px;
+        min-height: 625px;
+    }
+    .section__general .promo-box {
+        padding-top: 100px;
+    }
 
 
 
