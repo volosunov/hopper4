@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100.4 100.4" style="enable-background:new 0 0 100.4 100.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+</style>
+<g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="10.8656" y1="56.5357" x2="84.699" y2="44.2023" gradientTransform="matrix(1 0 0 -1 0 100)">
+		<stop  offset="0" style="stop-color:#2AB673"/>
+		<stop  offset="0.9988" style="stop-color:#8DC63F"/>
+	</linearGradient>
+	<path class="st0" d="M89.4,19.5H10.6c-4,0-7.2,3.2-7.2,7.2v4.8V42v31.3c0,4,3.2,7.2,7.2,7.2h78.8c4,0,7.2-3.2,7.2-7.2V42V31.6v-4.8
+		C96.6,22.8,93.4,19.5,89.4,19.5z M6.4,26.7c0-2.3,1.9-4.2,4.2-4.2h78.8c2.3,0,4.2,1.9,4.2,4.2V30H6.4V26.7z M93.6,73.3
+		c0,2.3-1.9,4.2-4.2,4.2H10.6c-2.3,0-4.2-1.9-4.2-4.2V43.5h87.2V73.3z M93.6,40.5H6.4v-7.4h87.2V40.5z"/>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="7.3296" y1="35.3671" x2="81.1629" y2="23.0338" gradientTransform="matrix(1 0 0 -1 0 100)">
+		<stop  offset="0" style="stop-color:#2AB673"/>
+		<stop  offset="0.9988" style="stop-color:#8DC63F"/>
+	</linearGradient>
+	<path class="st1" d="M17.9,71.6c2.9,0,5.2-2.3,5.2-5.2c0-2.9-2.3-5.2-5.2-5.2s-5.2,2.3-5.2,5.2C12.7,69.2,15,71.6,17.9,71.6z
+		 M17.9,64.1c1.2,0,2.2,1,2.2,2.2s-1,2.2-2.2,2.2s-2.2-1-2.2-2.2S16.7,64.1,17.9,64.1z"/>
+	
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="8.1903" y1="40.5197" x2="82.0236" y2="28.1864" gradientTransform="matrix(1 0 0 -1 0 100)">
+		<stop  offset="0" style="stop-color:#2AB673"/>
+		<stop  offset="0.9988" style="stop-color:#8DC63F"/>
+	</linearGradient>
+	<path class="st2" d="M29.1,68h42.3c0.8,0,1.5-0.7,1.5-1.5S72.2,65,71.3,65H29.1c-0.8,0-1.5,0.7-1.5,1.5S28.3,68,29.1,68z"/>
+</g>
+</svg>
