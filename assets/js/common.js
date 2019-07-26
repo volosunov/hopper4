@@ -19,6 +19,18 @@ $(document).ready(function () {
 		});
 		return false;
 	});
+	if (window.innerWidth < 767) {
+		headerHeight = parseInt($('.header').css('height'));
+		// Плавный скроллинг
+		$(".menu a, .scroll, .main_link, .arrow").click(function() {
+			$("html, body").animate({
+				scrollTop: $($(this).attr("href")).offset().top  - headerHeight + "px"
+			}, {
+				duration: 700
+			});
+			return false;
+		});
+	}
 
 	// Скрываем детали
 	$('.form__box .form__attach').slideToggle();
@@ -60,7 +72,7 @@ $(document).ready(function () {
 	});
 
 	// Закрытие модальных окон
-	$('.popup__close').on('click',function(){
+	$('.popup__close, .btn__close').on('click',function(){
 		$.magnificPopup.close();
 	});	
 
@@ -178,6 +190,20 @@ $(window).scroll(function() {
 			}
 		}
 	})
+
+	// Работа с галерей
+	$().fancybox({
+		selector : '.owl-item:not(.cloned) a',
+		hash   : false,
+		thumbs : {
+		autoStart : true
+		},
+		buttons : [
+			'zoom',
+			'download',
+			'close'
+		]
+	});
 
 });
 
