@@ -915,6 +915,7 @@ section {
   background: #f7f7f7;
   -webkit-box-shadow: 0 15px 46px 8px rgba(0,0,0,0.08);
   box-shadow: 0 15px 46px 8px rgba(0,0,0,0.08);
+  border-radius: 20px;
 }
 .section__order .form {}
 
@@ -959,6 +960,7 @@ section {
   border: 1px solid transparent;
   -webkit-box-shadow: 0 15px 46px 8px rgba(0,0,0,0.08);
   box-shadow: 0 15px 46px 8px rgba(0,0,0,0.08);
+    word-break: break-all;
 }
 .section__order .form__inp-min {
   max-width: 204px;
@@ -1071,9 +1073,9 @@ border-color: #007bff transparent transparent transparent;*/
   position: absolute;
   top: 0;
   right: 0;
-  border-radius: 40px;
+  border-radius: 20px;
   max-width: 144px;
-  padding: 12px 15px;
+  padding: 14px 15px;
 }
 
 
@@ -1912,9 +1914,30 @@ font-family: 'EXO2';
     fill: #fff;
 }
 
+.popup__thanks {}
+.popup__thanks .order__number {
+    color: #3eb968;
+  font: bold 1.8rem 'EXO2';
+}
+.popup__thanks .popup__title {
+    margin-bottom: 35px;
+}
+.popup__thanks .popup__text {
+    color: #212121;
+    margin-bottom: 30px;
+}
+.popup__thanks .popup__text2 {
+    color: #9b9b9b;
+    font-size: 1.6rem;
+    margin-bottom: 45px;
+}
+.popup__thanks .popup__form {}
 
-
-
+.popup__thanks .popup__form .popup__close {
+    position: relative;
+    right: initial;
+    top: initial;
+}
 
 label.error {
 	color: #f00;
@@ -2315,6 +2338,13 @@ label.error {
     .header .logo__img img {
         max-width: 30px;
     }
+    
+    .header.fixed {
+        padding: 15px 0;
+    }
+    .header.fixed .logo__img img {
+        max-width: 30px;
+    }
 
     .section__general {
         padding: 50px 0;
@@ -2402,6 +2432,10 @@ label.error {
         top: initial;
         right: initial;
         margin-top: 10px;
+    }
+
+    .section__order .form__inp {
+        font-weight: bold;
     }
 
     .section__order .form__count {
